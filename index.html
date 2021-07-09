@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div><b>Color : </b></div>
+        <div><input type="color" name="" id="color"></div>
+        <div><b>Thickness : </b></div>
+        <div><input type="range" name="" id="thickness" value="3" min="1" max="200"></div>
+        <div><span  id="thicknessValue"> 0</span></div>
+        <div><button onclick="color()" id="eraseBtn"  class="erase">Erase</button></div>
+    </div>
+    <br>
+    <canvas id="canvas" height="520" width="1270">
+    </canvas>
+    <script src="script.js"></script>
+</body>
+</html>
